@@ -1,0 +1,83 @@
+case,reference,prediction,grade,type
+History summary P001,"Ramesh Kumar has chronic kidney disease stage 3b, type 2 diabetes and hypertension; takes telmisartan, metformin, dapagliflozin and atorvastatin; alert to avoid NSAIDs and sulfa allergy.","Here is a concise summary of the patient's history:
+
+* **Active conditions**:
+  * Type 2 diabetes mellitus (diagnosed 2022)
+  * Essential hypertension
+  * Chronic kidney disease stage 3b (eGFR 38 mL/min/1.73m2), likely diabetic nephropathy
+* **Current medications**:
+  * Telmisartan 40 mg once daily
+  * Metformin 500 mg twice daily
+  * Dapagliflozin 10 mg once daily
+  * Atorvastatin 20 mg at night
+* **Recent results**:
+  * eGFR 34 mL/min/1.73m2 (2026-09-22)
+  * Urine albumin-creatinine ratio 320 mg/g (2026-09-22)
+  * HbA1c 7.4% (2026-09-22)
+  * Potassium 5.1 mmol/L (2026-09-22)
+  * Haemoglobin 10.8 g/dL (2026-09-22)
+* **Alerts & allergies**:
+  * Avoid NSAIDs (ibuprofen, diclofenac) - nephrotoxic
+  * Allergy: sulfa drugs (rash)
+* **Recent notes**:
+  * Reports ankle swelling and fatigue; BP 148/88 (2026-10-22)",CORRECT,summary
+History summary P003,Lakshmi Kumar has osteoarthritis of both knees and hypothyroidism treated with levothyroxine.,"* **Active conditions**: 
+  + Osteoarthritis of both knees
+  + Hypothyroidism
+* **Current medications**: 
+  + Levothyroxine 50 mcg daily
+* **Recent results**: None
+* **Alerts & allergies**: None
+* **Recent notes**: 
+  + 2026-10-07: Knee pain worse on stairs; physiotherapy recommended",CORRECT,summary
+History summary P005,"Imran Qureshi has coronary artery disease with a stent and takes aspirin, atorvastatin and metoprolol.","**Active conditions**
+* Coronary artery disease - PCI with stent to LAD (2024)
+
+**Current medications**
+* Aspirin 75 mg
+* Atorvastatin 40 mg
+* Metoprolol 25 mg
+
+**Recent results**
+* LDL: 68 mg/dL (2026-11-01)
+* ECG: normal sinus rhythm (2026-11-01)
+
+**Alerts & allergies**
+* None documented
+
+**Recent notes**
+* Appointment booked with Dr. Ananya Iyer (Cardiology) on 2026-11-23T12:00",CORRECT,summary
+Search: What are the latest treatment methods for chronic kidney disease?,Chronic kidney disease treatment slows progression; kidney failure is treated with dialysis or kidney transplant.,"The latest treatment methods for kidney disease, as described in the passages, focus on slowing progression, reducing cardiovascular risk, and preventing complications [2]. Treatment options for kidney failure include dialysis or a kidney transplant [1, 2]. Additionally, managing conditions like diabetes, hypertension, and cardiovascular disease through good control of blood pressure, blood glucose, and blood lipids can help reduce the risk of developing chronic kidney disease (CKD) [2]. It's also noted that treatments cannot cure kidney disease but may slow its progression [4].
+
+**For this patient:** Arun Kumar, a 41-year-old male with seasonal allergic rhinitis and an LDL level of 142 mg/dL, the information on kidney disease management may be relevant in terms of understanding the importance of controlling blood lipids to reduce the risk of developing conditions like CKD, especially if he has other underlying risk factors such as hypertension or diabetes, which are not mentioned in his current context.
+
+**Sources** (MedlinePlus (3) + WHO (1)):
+[1] [Kidney Failure - MedlinePlus](https://medlineplus.gov/kidneyfailure.html)
+[2] [Kidney disease - WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/kidney-disease)
+[3] [Kidney Diseases - MedlinePlus](https://medlineplus.gov/kidneydiseases.html)
+[4] [Chronic Kidney Disease - MedlinePlus](https://medlineplus.gov/chronickidneydisease.html)",CORRECT,search
+Search: What is the treatment for asthma?,Asthma is treated with inhaled corticosteroids and bronchodilator inhalers.,"According to MedlinePlus, asthma cannot be cured, but it can be managed with the right treatment [1]. Treatment plans are created with a healthcare provider to control symptoms [2]. Inhaled medication, such as an inhaler, is the most common treatment and can control asthma symptoms, allowing people with asthma to lead a normal life [1]. If symptoms worsen, treatment may need to be increased to avoid a serious attack [1]. Healthcare providers may also give an asthma action plan to help people with asthma take control of their treatment [1].
+
+**For this patient:** As a 34-year-old female with mild persistent asthma, Sara Thomas may benefit from closely following her treatment plan, which includes a budesonide-formoterol inhaler, and being aware of when to increase her treatment if symptoms worsen. Regular monitoring and potential adjustments to her treatment plan with her healthcare provider can help control her asthma symptoms.
+
+**Sources** (MedlinePlus (3) + WHO (1)):
+[1] [Asthma - WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/asthma)
+[2] [Asthma - MedlinePlus](https://medlineplus.gov/asthma.html)
+[3] [Asthma in Children - MedlinePlus](https://medlineplus.gov/asthmainchildren.html)",CORRECT,search
+Search: How is coronary artery disease treated?,"Coronary artery disease is treated with statins, aspirin, angioplasty with stents or bypass surgery.","According to the passages, treatments for coronary artery disease may include heart-healthy lifestyle changes, medicines to lower blood pressure and cholesterol, and procedures or surgery such as angioplasty or coronary artery bypass grafting [1]. Additionally, medical devices and surgical operations may be required to treat some cardiovascular diseases, including coronary artery bypass and balloon angioplasty [4]. Drug treatment of hypertension, diabetes, and high blood lipids is also necessary to reduce cardiovascular risk [4].
+
+**For this patient:** As a 58-year-old male with coronary artery disease and a history of PCI with stent to LAD, it is essential to continue with heart-healthy lifestyle changes and medication adherence, including Aspirin, Atorvastatin, and Metoprolol, to manage risk factors and prevent future heart problems. Regular monitoring of LDL levels and blood pressure is also crucial to ensure the effectiveness of the current treatment plan.
+
+**Sources** (MedlinePlus (3) + WHO (1)):
+[1] [Coronary Artery Disease - MedlinePlus](https://medlineplus.gov/coronaryarterydisease.html)
+[2] [Heart Disease in Women - MedlinePlus](https://medlineplus.gov/heartdiseaseinwomen.html)
+[3] [LDL: The ""Bad"" Cholesterol - MedlinePlus](https://medlineplus.gov/ldlthebadcholesterol.html)
+[4] [Cardiovascular diseases (CVDs) - WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds))",CORRECT,search
+Search: What are the treatment options for type 2 diabetes?,"Type 2 diabetes is treated with diet, physical activity, metformin and insulin when needed.","The provided passages [1-3] discuss the treatment and prevention of type 2 diabetes, but do not address seasonal allergic rhinitis. However, I can summarize the general approach to managing a condition with lifestyle changes, as described in the passages. According to [2] and [3], managing a condition may involve diet, exercise, and maintaining a healthy weight. 
+
+**For this patient:** Arun Kumar, a 41-year-old male with seasonal allergic rhinitis and elevated LDL levels, may benefit from lifestyle changes such as a healthy diet and regular physical activity to manage his overall health, although the passages do not specifically address his condition.
+
+**Sources** (MedlinePlus (3) + WHO (1)):
+[1] [Diabetes Type 2 - MedlinePlus](https://medlineplus.gov/diabetestype2.html)
+[2] [Diabetes in Children and Teens - MedlinePlus](https://medlineplus.gov/diabetesinchildrenandteens.html)
+[3] [Diabetes - WHO fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)",CORRECT,search

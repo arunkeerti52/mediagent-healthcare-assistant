@@ -1,0 +1,9 @@
+request,user,expected_specialty,booked,right_specialty,right_patient,success,latency_s
+Book a nephrologist for my father,Arun Kumar,Nephrology,True,True,True,True,2.83
+Book a cardiologist for my mother next Monday morning,Arun Kumar,Cardiology,True,True,True,True,2.67
+Schedule a general physician check-up for me tomorrow,Arun Kumar,General Medicine,True,True,True,True,3.32
+I need an appointment with a pulmonologist for my asthma,Sara Thomas,Pulmonology,True,True,True,True,5.06
+Book a cardiologist for me in the afternoon,Imran Qureshi,Cardiology,True,True,True,True,2.62
+"My mother has knee pain, book an orthopedic doctor",Arun Kumar,Orthopedics,True,True,True,True,8.92
+Book an endocrinologist for my father's diabetes,Arun Kumar,Endocrinology,True,True,True,True,7.35
+Book an appointment for my father,Arun Kumar,Nephrology,True,True,True,True,3.62

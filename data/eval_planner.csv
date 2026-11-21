@@ -1,0 +1,11 @@
+query,expected_tools,planned_tools,tool_recall,tool_precision,exact_match
+"My 70-year-old father has chronic kidney disease. I want to book a nephrologist for him. Also, can you summarize latest treatment methods?",identify_patient → get_medical_history → summarize_history → check_doctor_availability → book_appointment → medical_search,identify_patient → get_medical_history → summarize_history → check_doctor_availability → book_appointment → medical_search,1.0,1.0,True
+Book a cardiologist for my mother next Monday morning,identify_patient → get_medical_history → check_doctor_availability → book_appointment,identify_patient → get_medical_history → check_doctor_availability → book_appointment,1.0,1.0,True
+Summarize my father's medical history,identify_patient → get_medical_history → summarize_history,identify_patient → get_medical_history → summarize_history,1.0,1.0,True
+What are the latest treatment options for type 2 diabetes?,identify_patient → get_medical_history → medical_search,identify_patient → get_medical_history → medical_search,1.0,1.0,True
+Add a note that my father was prescribed iron tablets 100 mg daily,identify_patient → add_medical_record,identify_patient → add_medical_record,1.0,1.0,True
+Show my upcoming appointments,identify_patient → list_appointments,identify_patient → list_appointments,1.0,1.0,True
+"My mother has knee pain, book an orthopedic doctor and explain osteoarthritis treatment",identify_patient → get_medical_history → check_doctor_availability → book_appointment → medical_search,identify_patient → get_medical_history → summarize_history → check_doctor_availability → book_appointment → medical_search,1.0,0.83,False
+Record that my father's latest eGFR test result is 32,identify_patient → add_medical_record,identify_patient → add_medical_record,1.0,1.0,True
+I need an appointment with a pulmonologist tomorrow,identify_patient → get_medical_history → check_doctor_availability → book_appointment,identify_patient → get_medical_history → check_doctor_availability → book_appointment,1.0,1.0,True
+What are the symptoms of heart failure?,identify_patient → get_medical_history → medical_search,identify_patient → get_medical_history → medical_search,1.0,1.0,True

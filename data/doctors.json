@@ -1,0 +1,12 @@
+[
+  {"doctor_id": "D01", "name": "Dr. Kavita Rao", "specialty": "Nephrology", "days": ["Mon", "Wed", "Fri"], "start": "09:00", "end": "13:00", "slot_minutes": 30, "location": "Kidney Care Centre, Block B"},
+  {"doctor_id": "D02", "name": "Dr. Sanjay Mehta", "specialty": "Nephrology", "days": ["Tue", "Thu", "Sat"], "start": "14:00", "end": "17:00", "slot_minutes": 30, "location": "Kidney Care Centre, Block B"},
+  {"doctor_id": "D03", "name": "Dr. Ananya Iyer", "specialty": "Cardiology", "days": ["Mon", "Tue", "Thu"], "start": "10:00", "end": "14:00", "slot_minutes": 30, "location": "Heart Institute, Block A"},
+  {"doctor_id": "D04", "name": "Dr. Rohan Kapoor", "specialty": "Cardiology", "days": ["Wed", "Fri", "Sat"], "start": "09:00", "end": "12:00", "slot_minutes": 30, "location": "Heart Institute, Block A"},
+  {"doctor_id": "D05", "name": "Dr. Fatima Sheikh", "specialty": "General Medicine", "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "start": "09:00", "end": "17:00", "slot_minutes": 20, "location": "OPD, Ground Floor"},
+  {"doctor_id": "D06", "name": "Dr. Vikram Desai", "specialty": "Endocrinology", "days": ["Tue", "Fri"], "start": "11:00", "end": "15:00", "slot_minutes": 30, "location": "Diabetes & Thyroid Clinic"},
+  {"doctor_id": "D07", "name": "Dr. Neha Joshi", "specialty": "Neurology", "days": ["Mon", "Thu"], "start": "13:00", "end": "17:00", "slot_minutes": 30, "location": "Neuro Sciences, Block C"},
+  {"doctor_id": "D08", "name": "Dr. Arvind Pillai", "specialty": "Orthopedics", "days": ["Wed", "Sat"], "start": "09:00", "end": "13:00", "slot_minutes": 30, "location": "Bone & Joint Centre"},
+  {"doctor_id": "D09", "name": "Dr. Meera Nair", "specialty": "Pulmonology", "days": ["Tue", "Thu"], "start": "09:00", "end": "12:00", "slot_minutes": 30, "location": "Chest Clinic, Block C"},
+  {"doctor_id": "D10", "name": "Dr. Karan Malhotra", "specialty": "Geriatrics", "days": ["Mon", "Wed", "Fri"], "start": "14:00", "end": "17:00", "slot_minutes": 30, "location": "Senior Care Unit"}
+]

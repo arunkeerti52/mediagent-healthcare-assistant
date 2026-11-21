@@ -1,0 +1,11 @@
+{
+  "planner_tool_recall_%": 100.0,
+  "planner_tool_precision_%": 98.3,
+  "planner_exact_match_%": 90.0,
+  "booking_success_%": 100.0,
+  "double_bookings": 0,
+  "summary_qa_accuracy_%": 100.0,
+  "search_qa_accuracy_%": 100.0,
+  "tool_success_%": 100.0,
+  "grader_negative_controls_caught": "2/2"
+}
